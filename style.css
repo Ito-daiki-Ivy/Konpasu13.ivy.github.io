@@ -1,0 +1,98 @@
+/* style.css */
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background-color: #fff;
+  color: #000;
+}
+
+header {
+  background-color: #1e1e1e;
+  padding: 10px 20px;
+}
+
+.nav-menu {
+  background: linear-gradient(to right, #2b1a0a, #1f1f1f); /* ダークブラウン→ダークグレー */
+  padding: 10px 0;
+  text-align: center;
+}
+
+.nav-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-flex;
+  gap: 20px;
+  position: relative;
+}
+
+.nav-menu li {
+  position: relative;
+  padding: 0 10px;
+  font-weight: bold;
+}
+
+.nav-menu li:not(:last-child)::after {
+  content: "|";
+  color: #555;
+  position: absolute;
+  right: -10px;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: #ff8000; /* オレンジ色 */
+  font-family: 'Arial Black', sans-serif;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.nav-menu a:hover {
+  color: #ffaa33;
+}
+
+
+
+.hero-section {
+  text-align: center;
+  position: relative;
+  background: linear-gradient(to right, white 100%);
+  padding: 20px;
+}
+
+.download-banner {
+  background-color: black;
+  color: #ff0;
+  display: inline-block;
+  font-size: 24px;
+  padding: 10px 20px;
+  margin: 20px auto;
+  font-weight: bold;
+}
+
+.title h1 {
+  font-size: 28px;
+  margin: 10px 0;
+}
+
+.character-group img {
+  max-width: 110%;
+  height: auto;
+  margin-top: 20px;
+}
+
+.bottom-text {
+  background-color: black;
+  color: cyan;
+  font-size: 19px;
+  padding: 10px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+.Shoukai {
+  font-size: 20px;
+  padding: 20px;
+  margin: 20px;
+  font-weight: bolder;
+}

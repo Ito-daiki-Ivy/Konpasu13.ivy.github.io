@@ -1,0 +1,169 @@
+.collab-section {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.collab-section h2 {
+  color: #ffa500;
+  font-size: 24px;
+  border-bottom: 2px solid #ffa500;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.character-table {
+  width: 90%;
+  margin: auto;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.character-table1 {
+  width: 25%;
+  margin: auto;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.character-table_ainzu {
+  width: 80%;
+  margin: auto;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.character-table_kamijou {
+  width: 35%;
+  margin: auto;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.character-table_rokuman {
+  width: 80%;
+  margin: auto;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.character-table_ta-nya {
+  width: 45%;
+  margin: auto;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.character-table_zakku {
+  width: 35%;
+  margin: auto;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.character-table td {
+  padding: 20px;
+  vertical-align: top;
+  width: 220px;
+}
+
+.character-table img {
+  width: 50%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.character-table1 img {
+  width: 80%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.character-table_zakku img {
+  width: 60%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.character-table_ainzu img {
+  width: 30%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.character-table_rokuman img {
+  width: 30%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.character-table_ta-nya img {
+  width: 50%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.character-table_kamijou img {
+  width: 60%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+
+
+
+.name {
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+.role {
+  color: #aaa;
+  font-size: 14px;
+}
+
+.video {
+  margin-top: 10px;
+}
+.nav-menu {
+  background: linear-gradient(to right, #2b1a0a, #1f1f1f); /* ダークブラウン→ダークグレー */
+  padding: 10px 0;
+  text-align: center;
+}
+
+.nav-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-flex;
+  gap: 20px;
+  position: relative;
+}
+
+.nav-menu li {
+  position: relative;
+  padding: 0 10px;
+  font-weight: bold;
+}
+
+.nav-menu li:not(:last-child)::after {
+  content: "|";
+  color: #555;
+  position: absolute;
+  right: -10px;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: #ff8000; /* オレンジ色 */
+  font-family: 'Arial Black', sans-serif;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.nav-menu a:hover {
+  color: #ffaa33;
+}
